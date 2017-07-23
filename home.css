@@ -1,0 +1,92 @@
+/*entire page*/
+* {
+  font-family: 'Merriweather', sans-serif;
+  margin: 0px;
+}
+body {
+  background-color: #F2F1E8;
+  box-sizing: border-box;
+}
+/*navigation box*/
+#logo {
+  background-image: url("./images/optimized/bent-creek-logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:  #FFFFFF;
+  z-index: 1;
+  float:left;
+  margin-top: 0px;
+  width: 50px;
+  height: 50px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color:  #FFFFFF;
+}
+
+#endlesspossibilities {
+  background-image: url(./images/optimized/product-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  height: 300px;
+  width: 500px;
+}
+#set {
+  background-image: url(./images/optimized/product-2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+  height: 100px;
+  width: 200px;
+}
+#textures {
+  background-image: url(./images/optimized/product-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#teatime {
+  background-image: url(./images/optimized/product-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#jarsandcontainers {
+  background-image: url(./imagesw/optimized/product-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#wasabiandsaki {
+  background-image: url(./images/optimized/product-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#sippinonsunshine {
+  background-image: url(./images/optimized/product-7.jpg);
+}
+h5  {
+  border: 10px;
+  display: flex;
+  z-index: 4;
+  align-items: flex-start;
+  color: white;
+  background-color: #967343;
+  padding: 5px;
+
+}
+/*footer of page*/
+#footer {
+  display: flex;
+  padding: 30px;
+  margin: 5px;
+  background-color: #967343;
+}
+p {
+  margin-left: 15px;
+  font-weight: thin;
+  font-size: 14pt;
+  color: white;
+}
