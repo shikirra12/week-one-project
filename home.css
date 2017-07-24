@@ -13,70 +13,108 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color:  #FFFFFF;
-  z-index: 1;
+  z-index: 4;
   float:left;
   margin-top: 0px;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 }
-nav {
-  display: flex;
+.nav-bar {
+  display: block;
   justify-content: center;
+  flex-direction: row;
   background-color:  #FFFFFF;
+  z-index: 1;
+  width: 100%;
+  margin: 30px;
 }
-
+nav a {
+  display: flex;
+  align-items: center;
+  z-index: 3;
+  color: brown;
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+  margin: 10px;
+  font-stretch: extra-expanded;
+  font-weight: normal;
+  font-size: 46pt;
+}
+h3 {
+  text-align: center;
+  font-size: 24pt;
+  font-weight: lighter;
+  margin-bottom: 60px;
+}
+.images {
+  display: inline-block;
+  flex-wrap: wrap;
+}
 #endlesspossibilities {
   background-image: url(./images/optimized/product-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: flex-start;
   height: 300px;
-  width: 500px;
+  width: 900px;
+  border: 5px solid #F2F1E8;
 }
-#set {
+#sets {
   background-image: url(./images/optimized/product-2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  z-index: 5;
-  height: 100px;
-  width: 200px;
+  height: 300px;
+  width: 400px;
+  border: 5px solid #F2F1E8;
 }
 #textures {
   background-image: url(./images/optimized/product-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 300px;
+  width: 200px;
+  border: 5px solid #F2F1E8;
 }
 #teatime {
   background-image: url(./images/optimized/product-4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  border: 5px solid #F2F1E8;
 }
 #jarsandcontainers {
-  background-image: url(./imagesw/optimized/product-5.jpg);
+  background-image: url(./images/optimized/product-5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  border: 5px solid #F2F1E8;
+  height: 300px;
+  width: 300px;
 }
 #wasabiandsaki {
   background-image: url(./images/optimized/product-6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  border: 5px solid #F2F1E8;
+  height: 300px;
+  width: 500px;
 }
 #sippinonsunshine {
   background-image: url(./images/optimized/product-7.jpg);
+  border: 5px solid #F2F1E8;
+  height: 300px;
+  width: 300px;
+  background-size: cover;
 }
-h5  {
-  border: 10px;
-  display: flex;
-  z-index: 4;
-  align-items: flex-start;
+h5 {
   color: white;
-  background-color: #967343;
-  padding: 5px;
-
+  font-size: 14pt;
+  border: 1px solid green;
+  background-color: green;
+  z-index: 3;
 }
+
 /*footer of page*/
 #footer {
   display: flex;

@@ -5,7 +5,6 @@
 body {
   background-image: url(./images/optimized/background-2.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
 }
 #logo {
   background-image: url("./images/optimized/bent-creek-logo.png");
@@ -13,34 +12,52 @@ body {
   background-size: cover;
   background-color:  #FFFFFF;
   margin-top: 0px;
-  width: 50px;
-  height: 50px;
+  z-index: 4;
+  width: 60px;
+  height: 60px;
 }
 .nav-bar {
-  background-color: white;
+  display: block;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  z-index: 1;
+  width: 100%;
+  margin: 30px;
 }
 nav a {
+  display: flex;
   text-align: center;
+  z-index: 3;
   color: brown;
   padding: 20px;
 }
- {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   border: solid white 10px;
   background-color: white;
   padding: 10px;
+  z-index: 4;
 }
 h2 {
   font-weight: lighter;
   text-align: center;
 }
+label {
+  font-size: 14pt;
+}
 
+input {
 
-
-
-
+}
+br {
+  color: brown;
+}
+button {
+  background-color: brown;
+}
 #footer {
   display: flex;
   padding: 30px;
