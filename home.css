@@ -1,130 +1,112 @@
-/*entire page*/
 * {
-  font-family: 'Merriweather', sans-serif;
   margin: 0px;
 }
 body {
   background-color: #F2F1E8;
-  box-sizing: border-box;
 }
-/*navigation box*/
-#logo {
-  background-image: url("./images/optimized/bent-creek-logo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color:  #FFFFFF;
-  z-index: 4;
-  float:left;
-  margin-top: 0px;
-  width: 60px;
-  height: 60px;
-}
-.nav-bar {
-  display: block;
-  justify-content: center;
-  flex-direction: row;
-  background-color:  #FFFFFF;
-  z-index: 1;
-  width: 100%;
-  margin: 30px;
-}
-nav a {
+.navigation {
   display: flex;
+  justify-content: flex-start;
+  background-color: white;
   align-items: center;
-  z-index: 3;
-  color: brown;
-  padding: 30px;
-}
-h1 {
-  text-align: center;
-  margin: 10px;
-  font-stretch: extra-expanded;
-  font-weight: normal;
-  font-size: 46pt;
-}
-h3 {
-  text-align: center;
-  font-size: 24pt;
-  font-weight: lighter;
-  margin-bottom: 60px;
-}
-.images {
-  display: inline-block;
-  flex-wrap: wrap;
-}
-#endlesspossibilities {
-  background-image: url(./images/optimized/product-1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 900px;
-  border: 5px solid #F2F1E8;
-}
-#sets {
-  background-image: url(./images/optimized/product-2.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 400px;
-  border: 5px solid #F2F1E8;
-}
-#textures {
-  background-image: url(./images/optimized/product-3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 200px;
-  border: 5px solid #F2F1E8;
-}
-#teatime {
-  background-image: url(./images/optimized/product-4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 300px;
-  border: 5px solid #F2F1E8;
-}
-#jarsandcontainers {
-  background-image: url(./images/optimized/product-5.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: 5px solid #F2F1E8;
-  height: 300px;
-  width: 300px;
-}
-#wasabiandsaki {
-  background-image: url(./images/optimized/product-6.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: 5px solid #F2F1E8;
-  height: 300px;
-  width: 500px;
-}
-#sippinonsunshine {
-  background-image: url(./images/optimized/product-7.jpg);
-  border: 5px solid #F2F1E8;
-  height: 300px;
-  width: 300px;
-  background-size: cover;
-}
-h5 {
-  color: white;
-  font-size: 14pt;
-  border: 1px solid green;
-  background-color: green;
-  z-index: 3;
 }
 
-/*footer of page*/
-#footer {
+.nav-bar {
   display: flex;
-  padding: 30px;
-  margin: 5px;
-  background-color: #967343;
+  justify-content: flex-start;
+  font-family: sans-serif;
+  align-content: center;
+  border-width: thick;
+  padding: 20px;
+  margin-left: 400px;
 }
-p {
-  margin-left: 15px;
-  font-weight: thin;
-  font-size: 14pt;
+.nav-bar a {
+  color: #2B2F26;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16pt;
+  padding: 40px;
+}
+.nav-bar a:hover{
+  color: #968772;
+}
+div img {
+  width: 90px;
+  height: 90px;
+}
+  h1 {
+    text-align: center;
+    font-size: 42pt;
+    font-weight: lighter;
+    font-stretch: expanded;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  h3 {
+    font-size: 24pt;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+  }
+  .pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0px 20px 20px 20px;
+  }
+  .images {
+    display: flex;
+    align-items: flex-end;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #picOne {
+    background-image: url(./images/optimized/product-1.jpg);
+    height: 400px;
+    flex: 1 1 60%;
+  }
+  #picTwo {
+    background-image: url(./images/optimized/product-2.jpg);
+    flex: 1 1 15%;
+  }
+  #picThree {
+    background-image: url(./images/optimized/product-3.jpg);
+    flex: 1 1 15%;
+  }
+  #picFour {
+    background-image: url(./images/optimized/product-4.jpg);
+    height: 300px;
+    flex: 1 1 15%;
+  }
+  #picFive {
+    background-image: url(./images/optimized/product-5.jpg);
+    flex: 1 1 17%;
+  }
+  #picSix {
+    background-image: url(./images/optimized/product-6.jpg);
+    flex: 1 1 35%;
+  }
+  #picSeven {
+    background-image: url(./images/optimized/product-7.jpg);
+    flex: 1 1 15%;
+  }
+  .caption {
+  padding: 10px;
+  background-color: rgb(11, 31, 24);
+  display: inline-block;
+  flex-wrap: wrap;
   color: white;
-}
+  font-size: 14pt;
+  z-index: 1;
+
+  }
+  footer {
+    background-color: #968772;
+    font-size: 18pt;
+    padding: 20px;
+    color: white;
+  }

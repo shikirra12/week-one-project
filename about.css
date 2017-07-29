@@ -1,122 +1,128 @@
-*{
-  background-color: #F2F1E8;
-  font-weight: bold;
-  font-family: 'Merriweather', sans-serif;
+* {
+  /*border: 1px red solid;*/
+  margin: 0;
 }
-/*add navigation bar */
-#logo {
-  background-image: url("./images/optimized/bent-creek-logo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color:  #FFFFFF;
-  z-index: 4;
-  float:left;
-  margin-top: 0px;
-  width: 60px;
-  height: 60px;
+body {
+  background-color: #F2F1E8;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  align-items: center;
 }
 .nav-bar {
-  display: block;
-  justify-content: center;
-  flex-direction: row;
-  background-color:  #FFFFFF;
-  z-index: 1;
-  width: 100%;
-  margin: 30px;
-}
-nav a {
   display: flex;
-  align-items: center;
-  z-index: 3;
-  color: brown;
-  padding: 30px;
+  justify-content: flex-start;
+  font-family: sans-serif;
+  align-content: center;
+  border-width: thick;
+  padding: 20px;
+  margin-left: 400px;
+}
+.nav-bar a {
+  color: #2B2F26;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16pt;
+  padding: 40px;
+}
+.nav-bar a:hover{
+  color: #968772;
+}
+div img {
+  width: 90px;
+  height: 90px;
 }
 h1 {
-  font-size: 48pt;
-  font-weight: lighter;
-  text-align: left;
-  margin-top: 20px;
-}
-.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-img {
-  width: 120px;
-  height: 90px;
+  font-size: 52pt;
+  text-align: center;
+  font-stretch: expanded;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-weight: normal;
 }
 .section-one {
   display: flex;
-  justify-content: flex-start;
+  flex-flow: row;
+  align-items: flex-start;
+  font-size: 16pt;
+  line-height: 200%;
+  margin: 0px 200px 0px 200px;
 }
-.verticalLine {
-  color: brown;
+.picture {
+margin: 10px;
 }
+u {
+  color: #967343;
+}
+/*.verticalLine {
+  color: #967343;
+  height: 10px;
+  margin-left: 200px;
+}*/
 #quote {
-  font-style:italic;
-  font-size: 18pt;
-  font-stretch: extra-expanded;
-  font-weight: lighter;
+  font-style: italic;
+  font-size: 14pt;
+  margin-top: 10px;
+  margin-left: 200px;
 }
-p {
-  line-height: 300%;
-}
-/*need to create html and css for link*/
-.verticalLine {
-  border-left: thin solid #131511;
-  height: 70px;
-  color: #2B2F26;
-}
-
-.section-three {
-  background-image: url(./images/optimized/background-3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 1;
-  background-position: 0px 120px 0px 120px;
-  width: 100%;
-  height: 500px;
-}
-h2 {
-  color: white;
-  z-index: 4;
-  font-size: 36pt;
-  font-weight: lighter;
-  text-align: center;
-  padding-top: 90px;
-}
-.section-four {
-
-}
-
 h3 {
   font-size: 24pt;
   font-weight: lighter;
+  margin-top: 30px;
 }
-table, td {
-  border: 1px solid black;
-  font-size: 18pt;
-  border-collapse: collapse;
-  margin-bottom: 30px;
+.section-two {
+  margin-left: 200px;
+  margin-right: 200px;
 }
-thead {
+div p {
+  font-size: 16pt;
+  line-height: 200%;
+}
+.section-three {
+  background-image: url(./images/optimized/background-3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+h2 {
+  color: white;
   text-align: center;
+  font-size: 52pt;
+  font-weight: lighter;
+  padding-top: 87px;
 }
-td {
-  padding: 10px;
-}
-#footer {
+.section-four {
   display: flex;
-  padding: 30px;
-  margin: 5px;
+}
+.pictureAside {
+background-image: url(./images/optimized/background-1.jpg);
+width: 50px;
+height: 50px;
+}
+.caption {
+
+}
+.section-five{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
   background-color: #967343;
 }
-footer {
-  margin-left: 15px;
-  font-weight: thin;
-  color: margin-left: 15px;
-  font-weight: thin;
-  color: #F2F1E8;
-  font-size: 14pt;
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+.footer {
+  background-color: #968772;
+  font-size: 18pt;
+  padding: 20px;
+  color: white;
 }

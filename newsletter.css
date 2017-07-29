@@ -1,72 +1,83 @@
-* {
-  font-family: 'Merriweather', sans-serif;
-}
 
 body {
+  margin: 0;
   background-image: url(./images/optimized/background-2.jpg);
-  background-size: cover;
-}
-#logo {
-  background-image: url("./images/optimized/bent-creek-logo.png");
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color:  #FFFFFF;
-  margin-top: 0px;
-  z-index: 4;
-  width: 60px;
-  height: 60px;
 }
-.nav-bar {
-  display: block;
-  justify-content: center;
-  flex-direction: row;
-  background-color: #FFFFFF;
-  z-index: 1;
-  width: 100%;
-  margin: 30px;
-}
-nav a {
+
+.navigation {
   display: flex;
-  text-align: center;
-  z-index: 3;
-  color: brown;
+  justify-content: flex-start;
+  background-color: white;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  align-content: center;
+  border-width: thick;
   padding: 20px;
+  margin-left: 400px;
+}
+.nav-bar a {
+  color: #2B2F26;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16pt;
+  padding: 40px;
+}
+.nav-bar a:hover{
+  color: #968772;
+}
+div img {
+  width: 70px;
+  height: 70px;
 }
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  border: solid white 10px;
+}
+center {
   background-color: white;
-  padding: 10px;
-  z-index: 4;
+  margin-top: 50px;
+  /*padding: 80px;*/
+  height: 400px;
+  width: 800px;
 }
 h2 {
   font-weight: lighter;
-  text-align: center;
+  font-size: 24pt;
+  margin-top: 40px;
+}
+h4 {
+  margin-top: -10px;
+  font-size: 18pt;
+}
+input {
+  display: none;
 }
 label {
-  font-size: 14pt;
+  text-align: left;
+  font-size: 16pt;
+  margin-left: -650px;
+  font-family: sans-serif;
 }
-
-input {
-
-}
-br {
-  color: brown;
+hr {
+  margin-left: 45px;
+  margin-right: 45px;
 }
 button {
-  background-color: brown;
-}
-#footer {
-  display: flex;
-  padding: 30px;
-  margin: 5px;
-  background-color: #967343;
-}
-p {
-  margin-left: 15px;
-  font-weight: thin;
+  background-color: #968772;
+  width: 150px;
+  height: 60px;
   font-size: 14pt;
   color: white;
+}
+button:hover {
+  color: #967343;
 }

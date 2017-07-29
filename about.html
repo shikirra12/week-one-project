@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <title>About</title>
-    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="about.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
 </head>
 
@@ -23,26 +23,27 @@ Input Border Bottom (Focus): #967343*/ -->
 
 <body>
 <!-- Navigation and had icon in left corner -->
-
-    <nav id="logo" class="nav-bar">
+  <div class="navigation">
+    <img src="./images/optimized/bent-creek-logo.png" alt="company logo">
+    <nav class="nav-bar">
       <a href="./index.html">Home</a>
       <a href="about.html">About</a>
       <a href="./newsletter.html">Newsletter</a>
     </nav>
+</div>
 
     <h1>A Community of Artists</h1>
   <!-- image in front of text; text push to right of image -->
     <div class="section-one">
-
-      <img src="./images/optimized/birdhouse.jpg" alt="bird house">
-
-        <p>Our studio, established in 1989, has been providing local artists with a <!-- hyperlink with beige color -->dedicated evironment for creativity for 20+ years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <div class="picture">
+      <img  src="./images/optimized/birdhouse.jpg" alt="bird house">
+      </div>
+        <p>Our studio, established in 1989, has been providing local artists with a <u>dedicated evironment</u> for creativity for 20+ years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
     <!-- italicized and has line of left of quote -->
-    <div class="verticalLine">
+    <div class="verticalLine"></div>
       <p id="quote">"Our mission is to provide people with beautiful, functional items which enhance lives."
         -Jenn Wilson (Founder)</p>
-    </div>
 
     <div class="section-two">
 
@@ -59,14 +60,17 @@ Input Border Bottom (Focus): #967343*/ -->
 
     <h3>Facilities</h3>
       <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
-      <!-- image above this text but to the right of facilities paragraph -->
-
-        <aside> "Every member has access to shelf space and all of the studio's shared equipment."</aside>
+      <div class="pictureAside">
+        <div class="caption">
+          <p> "Every member has access to shelf space and all of the studio's shared equipment."</p>
+        </div>
+      </div>
   </div>
 
-    <h3>Monthly Plans</h3>
-      <!-- table -->
-        <table>
+  <div class="section-five">
+  <h3>Monthly Plans</h3>
+    <div class="table">
+        <table align="center">
             <thead>
               <tr>
                 <td>Plan</td>
@@ -74,9 +78,9 @@ Input Border Bottom (Focus): #967343*/ -->
                 <td>Access</td>
               </tr>
             </thead>
-            <tr>
+            <tr class="row">
               <!-- different color row -->
-              <td>Desk</td>
+              <td>Desk Only</td>
               <td>$50/mo.</td>
               <td>Business Hours + Weekly Kiln Acces</td>
             </tr>
@@ -85,17 +89,17 @@ Input Border Bottom (Focus): #967343*/ -->
               <td>$100/mo.</td>
               <td>Business Hours + Weekly Kiln Access</td>
             </tr>
-            <tr>
+            <tr class="row">
               <!-- different color row -->
               <td>Unlimited</td>
               <td>$150/mo.</td>
               <td>Unlimited access</td>
             </tr>
         </table>
-        <!-- contained in a black bar -->
-    <div id="footer">
-      <footer> <p>Copyright 2017, Bent Creek Ceramics</p></footer>
+    </div>
   </div>
-
+    <div class="footer">
+        <footer> <p>Copyright 2017, Bent Creek Ceramics</p></footer>
+  </div>
 </body>
 </html>
